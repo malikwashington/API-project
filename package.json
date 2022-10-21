@@ -1,0 +1,30 @@
+{
+  "name": "api-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:seed": "node --experimental-json-modules seed/data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikwashington/API-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malikwashington/API-project/issues"
+  },
+  "homepage": "https://github.com/malikwashington/API-project#readme",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "express": "^4.18.2",
+    "logger": "^0.0.1",
+    "mongoose": "^6.6.5",
+    "node-fetch": "^3.2.10"
+  },
+  "type": "module"
+}
