@@ -19,7 +19,7 @@ db.on("connected", () => {
   console.log(chalk.blue("Connected to MongoDB!"));
   app.listen(PORT, () => {
     console.log(
-      `now listening on port: ${PORT}`
+      `now listening on port: st${PORT}`
     );
   });
 });
