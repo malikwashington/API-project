@@ -8,9 +8,9 @@ let mongooseConnectionConfig = {
 
 mongoose.set("returnOriginal", false);
 
+const connectionString = process.env.MONGO_URL || "mongodb://127.0.0.1:27017/silly-goose"
 mongoose
-  .connect("mongodb://127.0.0.1:27017/silly-goose",
-    mongooseConnectionConfig)
+  .connect(connectionString, mongooseConnectionConfig)
   .catch((err) => {
     console.log(`Error connection go MongoDB: ${err.message}`);
   });

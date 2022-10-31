@@ -21,6 +21,7 @@
   "homepage": "https://github.com/malikwashington/API-project#readme",
   "dependencies": {
     "chalk": "^5.1.2",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "logger": "^0.0.1",
     "mongoose": "^6.6.5",
