@@ -26,7 +26,7 @@ let characterData = data.results.map((item) => {
 
 const insertData = async () => {
   // reset database
-  await Character.deleteMany({});
+  await db.dropDatabase();
 
   // insert data
   await Character.create(characterData);
